@@ -1,6 +1,5 @@
 SpocosyTest::Application.routes.draw do
-  get "push/create"
-
+  post 'push' => 'push#create'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
